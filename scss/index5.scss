@@ -1,0 +1,19 @@
+$size:200px;
+$color-orange:orange;
+$font:30px;
+
+
+.container{
+    //width : 400px -> $size 의 2배
+    width: $size * 2;
+    background-color: $color-orange;
+    padding: $size;
+    .item {
+        // 재할당
+        width: 300px;
+        height: $size;
+        color: green;
+        font-size: $font;
+        background-color: #fff;
+    }
+}
